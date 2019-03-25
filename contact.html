@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+      .fakeimg {
+        height: 200px;
+        background: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <a class="navbar-brand" href="index.html"><h2>David Schwartz</h2> </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfoio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top:30px">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="pageHeading">Contact</h2>
+          <form>
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr" />
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="comment">Message</label>
+              <textarea class="form-control" rows="5" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm-8"></div>
+      </div>
+    </div>
+
+    <footer class="footer"><p>Copyright</p></footer>
+  </body>
+</html>
